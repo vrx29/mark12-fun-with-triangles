@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Is Triangle?</a>
+      <a href="hypotenuse.html" class="active">Hypotenuse</a>
+      <a href="area.html">Area</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+    <div class="container">
+      <div class="heading">
+        <h1>Check Hypotenuse</h1>
+      </div>
+      <div class="hint">
+        Hypotenuse of Triangle = sqrt(a²+b²)
+      </div>
+      <form>
+        <div class="form-item">
+          <label for="input_a">A = </label>
+          <input id="input_a" />
+        </div>
+        <div class="form-item">
+          <label for="input_b">B = </label>
+          <input id="input_b" />
+        </div>
+        <div class="form-item">
+          <button class="btn">Check Hypotenuse</button>
+        </div>
+      </form>
+      <div class="output"></div>
+    </div>
+    <script src="hypotenuse.js"></script>
+  </body>
+</html>

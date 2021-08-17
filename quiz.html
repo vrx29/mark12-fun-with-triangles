@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Is Triangle?</a>
+      <a href="hypotenuse.html">Hypotenuse</a>
+      <a href="area.html">Area</a>
+      <a href="quiz.html" class="active">Quiz</a>
+    </nav>
+    <div class="container quiz-container">
+      <div class="heading">
+        <h1>Triangle Quiz</h1>
+      </div>
+      <form class="form">
+        <div class="form-item box">
+          <p>
+            What is the third angle for the triangle where angle1 = 45° and
+            angle2 = 45°?
+          </p>
+          <label>
+            <input required type="radio" name="option1" value="45°" />
+            45°
+          </label>
+          <label>
+            <input required type="radio" name="option1" value="60°" />
+            60°
+          </label>
+          <label>
+            <input required type="radio" name="option1" value="90°" />
+            90°
+          </label>
+        </div>
+        <div class="form-item box">
+          <p>What do you call a triangle whose sides are all equal?</p>
+          <label>
+            <input required type="radio" name="option2" value="Equilateral" />
+            Equilateral
+          </label>
+          <label>
+            <input required type="radio" name="option2" value="Isosceles" />
+            Isosceles
+          </label>
+          <label>
+            <input required type="radio" name="option2" value="Scalene" />
+            Scalene
+          </label>
+        </div>
+        <div class="form-item box">
+          <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+          <label>
+            <input required type="radio" name="option3" value="obtuse" />
+            obtuse
+          </label>
+          <label>
+            <input required type="radio" name="option3" value="acute" />
+            acute
+          </label>
+          <label>
+            <input required type="radio" name="option3" value="right angled" />
+            right angled
+          </label>
+        </div>
+        <div class="form-item">
+          <button class="btn" type="submit">Check Area</button>
+        </div>
+      </form>
+      <div class="output"></div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>

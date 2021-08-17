@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #14213d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: large;
+}
+
+.active {
+  color: #fca311;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fca311;
+}
+
+.container {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hint {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #fca311;
+}
+
+.form-item {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border-radius: 10px;
+  border: 2px solid #fca311;
+  padding: 20px 20px;
+}
+
+.form-item input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 35px;
+  border-radius: 5px;
+  outline: transparent;
+  border: 1px solid #14213d;
+}
+
+.btn {
+  background-color: #fca311;
+  margin-top: 30px;
+  height: 40px;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.output {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 400;
+  color: #fca311;
+  font-size: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 50%;
+    padding: 10px 20px;
+    /* background-color: #fffffc; */
+    margin: 2rem auto;
+  }
+  .quiz-container {
+    width: 70%;
+  }
+}
